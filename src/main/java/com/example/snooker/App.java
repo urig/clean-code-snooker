@@ -58,6 +58,7 @@ public class App {
 					continuePlaying = false;
 				}
 			}
+			scanner.close();
 		}
 	}
 }
