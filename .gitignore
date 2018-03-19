@@ -26,3 +26,9 @@ hs_err_pid*
 .project
 .settings/
 target/
+C#/Snooker/bin/
+C#/Snooker/obj/
+C#/SnookerTests/bin/
+C#/SnookerTests/obj/Debug/CoreCompileInputs.cache
+C#/SnookerTests/obj/
+C#/.vs/Snooker/v15/.suo
