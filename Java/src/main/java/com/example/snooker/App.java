@@ -18,7 +18,7 @@ public class App {
 			
 			System.out.print("Please enter player 2 name: ");
 			String name2 = scanner.nextLine();
-			snooker.addPlayer(name1);
+			snooker.addPlayer(name2);
 			
 			System.out.println();
 			String player = name1;
