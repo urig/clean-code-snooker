@@ -32,3 +32,11 @@ C#/SnookerTests/bin/
 C#/SnookerTests/obj/Debug/CoreCompileInputs.cache
 C#/SnookerTests/obj/
 C#/.vs/Snooker/v15/.suo
+C++/Snooker/Debug/
+C++/Snooker/Snooker/Debug/
+C++/Snooker/Snooker/Snooker.vcxproj.user
+C++/Snooker/Snooker/Snooker.vcxproj.filters
+C++/Snooker/ipch/SNOOKER-96b3b400/SNOOKER-32ea9a8d.ipch
+C++/Snooker/Snooker.VC.db
+C++/Snooker/Snooker.VC.VC.opendb
+C++/Snooker/.vs/Snooker/v14/.suo
