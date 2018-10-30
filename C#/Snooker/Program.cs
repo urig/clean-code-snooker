@@ -20,7 +20,7 @@ namespace Snooker
 
                 Console.WriteLine("Please enter player 2 name: ");
                 String name2 = Console.ReadLine();
-                snooker.addPlayer(name1);
+                snooker.addPlayer(name2);
 
                 Console.WriteLine();
                 String player = name1;
