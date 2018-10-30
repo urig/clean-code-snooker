@@ -7,8 +7,10 @@ public class App {
 	
 	public static void main(String[] args) throws IOException {
 		while (true) {
-			System.out.println("Welcome to Snooker.");
-	
+			System.out.println("+---------------------+");
+			System.out.println("| Welcome to Snooker. |");
+			System.out.println("+---------------------+");
+			
 			Snooker snooker = new Snooker();
 			Scanner scanner = new Scanner(System.in);
 			
@@ -32,6 +34,7 @@ public class App {
 				System.out.println("  3 = Player quits");
 				System.out.print("Enter the shot result: ");
 				int result = scanner.nextInt();
+				System.out.println();
 				
 				if (result == 1) {
 					player = snooker.recordMiss(player);

@@ -8,7 +8,9 @@ namespace Snooker
         {
             while (true)
             {
-                Console.WriteLine("Welcome to Snooker.");
+                Console.WriteLine("+---------------------+");
+                Console.WriteLine("| Welcome to Snooker. |");
+                Console.WriteLine("+---------------------+");
 
                 Snooker snooker = new Snooker();
 
@@ -32,6 +34,7 @@ namespace Snooker
                     Console.WriteLine("  3 = Player quits");
                     Console.WriteLine("Enter the shot result: ");
                     int result = int.Parse(Console.ReadLine());
+                    Console.WriteLine();
 
                     if (result == 1)
                     {
