@@ -22,6 +22,7 @@ public class Snooker {
 		}
 	}
 	
+	// returns the new "current player"
 	public String recordMiss(String playerName) {
 		if (currentPlayer == player1) {
 			currentPlayer = player2;
@@ -31,6 +32,7 @@ public class Snooker {
 		return currentPlayer.getName();
 	}
 
+	// returns the player's new score
 	public int recordShot(String playerName, Sink shotResult) {
 		if (playerName == player1.getName()) {
 			return shotRecorder.recordShot(player1, shotResult);
@@ -40,6 +42,7 @@ public class Snooker {
 		}
 	}
 	
+	// returns the score of both players
 	public Score getScore() {
 		return new Score(player1.getScore(), player2.getScore());
 	}
